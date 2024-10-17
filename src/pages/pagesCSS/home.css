@@ -1,0 +1,210 @@
+/* Reset básico */
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: #f0f4f8; /* Fundo mais claro e suave */
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+  }
+  
+  /* Estilos do Container Raiz */
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Links */
+  a {
+    color: #007bff; /* Cor padrão dos links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transição suave na mudança de cor */
+  }
+  
+  a:hover {
+    color: #0056b3; /* Cor ao passar o mouse */
+  }
+  
+  /* Container Principal */
+  .home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px; /* Aumentado para um melhor espaçamento */
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra mais suave */
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #007bff; /* Azul vibrante */
+    color: #ffffff; /* Texto branco */
+    text-align: center;
+    padding: 50px 20px; /* Ajuste no espaçamento */
+    border-radius: 12px; /* Bordas arredondadas */
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 42px; /* Tamanho maior para o título */
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1px; /* Espaçamento entre letras */
+  }
+  
+  header p {
+    font-size: 20px; /* Aumentado para uma melhor legibilidade */
+    font-weight: 300;
+    margin-top: 5px;
+  }
+  
+  /* Seções */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Seção "Sobre Mim" */
+  section.about h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  section.about p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+  }
+  
+  /* Seção "Habilidades" */
+  section.skills h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  section.skills ul {
+    list-style-type: none;
+    padding: 0; /* Remover padding padrão */
+  }
+  
+  section.skills li {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+  
+  /* Seção "Projetos" */
+  section.projects h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px; /* Espaçamento entre os projetos */
+  }
+  
+  .project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px); /* Levantar o projeto ao passar o mouse */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra mais intensa no hover */
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .project a {
+    font-size: 16px;
+    color: #007bff;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .project a:hover {
+    color: #0056b3; /* Cor ao passar o mouse */
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #333; /* Cor do fundo do rodapé */
+    color: #ffffff; /* Texto branco */
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-top: 40px; /* Espaço acima do rodapé */
+  }
+  
+  footer p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre os ícones sociais */
+  }
+  
+  .social-links a {
+    color: #fff; /* Cor do texto dos links sociais */
+    font-size: 20px;
+    transition: color 0.3s ease; /* Transição suave na mudança de cor */
+  }
+  
+  .social-links a:hover {
+    color: #007bff; /* Destaque no hover */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 30px; /* Reduzir tamanho do título em telas pequenas */
+    }
+  
+    header p {
+      font-size: 18px; /* Reduzir tamanho do subtítulo em telas pequenas */
+    }
+  
+    section.about p,
+    section.skills li,
+    section.projects p {
+      font-size: 16px; /* Tamanho uniforme para textos menores */
+    }
+  }
+  
