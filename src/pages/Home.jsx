@@ -23,11 +23,11 @@ const Home = () => {
             <section className="skills">
                 <h2>Minhas Habilidades</h2>
                 <ul>
-                    <li>Frontend: React, HTML, CSS, JavaScript, TypeScript</li>
-                    <li>Backend: Node.js, Express, REST APIs</li>
-                    <li>Bancos de Dados: MongoDB, PostgreSQL</li>
-                    <li>Versionamento: Git, GitHub, GitLab</li>
-                    <li>Ferramentas: Docker, Jest, Webpack</li>
+                <li>Frontend: Vue.js, Svelte, Tailwind CSS, JavaScript, TypeScript</li>
+        <li>Backend: Django, Flask, FastAPI, REST APIs</li>
+        <li>Bancos de Dados: MySQL, SQLite, Redis</li>
+        <li>Versionamento: Git, GitHub, Bitbucket</li>
+        <li>Ferramentas: Kubernetes, Cypress, Turborepo, GCP (Google Cloud Platform)</li>
                 </ul>
             </section>
 
