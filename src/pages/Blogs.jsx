@@ -13,14 +13,14 @@ const Blogs = () => {
             id: 2,
             title: "Introdução ao Vue.js: Um Guia Completo",
             content: "Vue.js é uma alternativa interessante ao React para a construção de interfaces de usuário. Vamos explorar como começar a usar Vue.js e suas principais funcionalidades...",
-            author: "Maria Souza",
+            author: "João Vitor",
             date: "10 de Outubro de 2024"
         },
         {
             id: 3,
             title: "GraphQL vs REST: Qual Escolher?",
             content: "Entender as diferenças entre GraphQL e REST é essencial para qualquer desenvolvedor backend moderno. Neste artigo, abordamos os prós e contras de cada abordagem...",
-            author: "Carlos Lima",
+            author: "João Vitor",
             date: "5 de Outubro de 2024"
         }
     ];
