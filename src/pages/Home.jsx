@@ -58,7 +58,7 @@ const Home = () => {
                 <p>Conecte-se comigo:</p>
                 <ul className="social-links">
                     <li><a href="https://github.com/Joaojapa" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a href="vcamposjoao@gmail.com">Email</a></li>
+                    <li><a href="https://criarmeulink.com.br/u/1729257166">Email</a></li>
                 </ul>
             </footer>
         </div>
